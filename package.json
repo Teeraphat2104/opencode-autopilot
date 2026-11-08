@@ -1,0 +1,33 @@
+{
+  "name": "opencode-autopilot",
+  "version": "0.1.0",
+  "description": "Separately installable OpenCode Autopilot agent suite (orchestrator + planner/backend/frontend/review).",
+  "type": "module",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teeraphat2104/opencode-autopilot.git"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "agents",
+    "README.md"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "autopilot",
+    "agent"
+  ],
+  "peerDependencies": {
+    "@opencode-ai/plugin": ">=1.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@opencode-ai/plugin": {
+      "optional": true
+    }
+  }
+}
